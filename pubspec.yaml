@@ -1,0 +1,74 @@
+name: dro_health_pharmacy
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path: any
+  sqflite: any
+  catcher: ^0.3.23
+  shimmer: any
+  provider: ^4.3.2+2
+  futuristic: any
+  velocity_x: ^1.3.1
+  fluttertoast: ^7.1.5
+  flutter_cart: ^0.0.5+1
+  flutter_spinkit: any
+  cupertino_icons: ^1.0.1
+  flex_color_scheme: any
+  shared_preferences: ^0.5.12+4
+  flutter_vector_icons: any
+  cached_network_image: ^2.3.2+1
+  flutter_number_picker: ^0.0.8
+  flutter_launcher_icons: "^0.7.3"
+  flutter_staggered_grid_view: ^0.3.1
+
+flutter_icons:
+  android: "ic_launcher"
+  ios: true
+  image_path: "assets/img/logo.jpg"
+
+dependency_overrides:
+  shared_preferences:
+    git:
+      url: https://github.com/Flutter-Dart-Open-Source/plugins.git
+      path: packages/shared_preferences/shared_preferences
+      ref: update_prefs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/img/
+    - assets/demo/
+  
+  fonts:
+    - family: ProximaNova
+      fonts:
+        - asset: assets/fonts/ProximaNova-Black.ttf
+          weight: 900
+        - asset: assets/fonts/ProximaNova-Extrabold.ttf
+          weight: 800
+        - asset: assets/fonts/ProximaNova-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/ProximaNova-AltBold.ttf
+          weight: 600
+        - asset: assets/fonts/ProximaNova-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/ProximaNova-AltLight.ttf
+          weight: 300
+        - asset: assets/fonts/ProximaNova-AltThin.ttf
+          weight: 200
+        - asset: assets/fonts/ProximaNova-Thin.ttf
+          weight: 100

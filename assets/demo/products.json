@@ -1,0 +1,79 @@
+[
+    {
+        "product_id": 1,
+        "description": "Soft Gel - 1000mg",
+        "image": "assets/img/product-1.jpg",
+        "title": "Garlic Oil 30 Softgel",
+        "pack_size": "6x30",
+        "key": "M02350",
+        "company": "Aksu Vital Shiffa Home",
+        "price": "2500",
+        "dispensed_in": "packs"
+    },
+    {
+        "product_id": 2,
+        "description": "Soft Gel - 500mg",
+        "image": "assets/img/product-2.jpg",
+        "title": "NIGELLA SATIVA (Black Seed) OIL",
+        "pack_size": "3x10",
+        "key": "M02884",
+        "company": "Avicenna",
+        "price": "1000",
+        "dispensed_in": "Bottle"
+    },
+    {
+        "product_id": 3,
+        "description": "Herbal Capsules - 1300mg",
+        "image": "assets/img/product-3.jpg",
+        "title": "Curcumin Plus Capsules",
+        "pack_size": "1x90",
+        "key": "M02550",
+        "company": "Avicenna",
+        "price": "2850",
+        "dispensed_in": "packs"
+    },
+    {
+        "product_id": 4,
+        "description": "Soft Gel - 1000mg",
+        "image": "assets/img/product-4.jpg",
+        "title": "Omega-3 Fish Oil",
+        "pack_size": "6x100",
+        "key": "M01870",
+        "company": "Shiffa Home",
+        "price": "3200",
+        "dispensed_in": "Carton"
+    },
+    {
+        "product_id": 5,
+        "description": "Paracetamol - 500mg",
+        "image": "assets/img/product-5.jpg",
+        "title": "Panadol Paracetamol",
+        "pack_size": "3x10",
+        "key": "507855",
+        "company": "superdrug.com",
+        "price": "1600",
+        "dispensed_in": "packs"
+    },
+    {
+        "product_id": 6,
+        "description": "paracetamol - 500mg",
+        "image": "assets/img/product-1.jpg",
+        "title": "Panamax Paracetamol",
+        "pack_size": "1x100",
+        "key": "0106017003",
+        "company": "Superpharmacy",
+        "price": "3700",
+        "dispensed_in": "packs"
+    },
+    {
+        "product_id": 7,
+        "key": "FOL-100",
+        "image": "assets/img/product-7.jpg",
+        "title": "Nature’s Field Folic Acid",
+        "price": "2050",
+        "company": "AMDIPHARM LIMITED",
+        "pack_size": "3x10",
+        "description": "Nature’s Field Folic Acid - 400mcg",
+        "dispensed_in": "packs"
+    }
+]
